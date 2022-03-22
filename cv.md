@@ -53,3 +53,20 @@ return false
 * *[Random jokes](https://rolling-scopes-school.github.io/aart13-JSFEPRESCHOOL/random-jokes/ "Random jokes")*
 * *[Image gallery](https://rolling-scopes-school.github.io/aart13-JSFEPRESCHOOL/image-galery/ "Image gallery")*
 * *[Tic Tac Toe](https://rolling-scopes-school.github.io/aart13-JSFEPRESCHOOL/tic-tac-toe/ "Tic Tac Toe")*
+
+
+## Education  
+* **University:** *Belarusian National Technical University*;
+* **Coures:** 
+   * *[RS School. «JavaScript/Front-end. Stage 0»](https://rs.school/js-stage0/ "Pre-course");*
+   * *[Code-Basics](https://ru.code-basics.com/);*
+   * *[Wayup](https://wayup.in/);*
+
+
+## Languages  
+* English: A1
+* Belarusian: native
+* Russian: native
+
+
+https://rs.school/
