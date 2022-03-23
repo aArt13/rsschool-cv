@@ -6,7 +6,13 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="shortcut icon" href="./assets/ico/mandala_icon.ico" type="image/png">
     <link rel="stylesheet" href="./style.css">
+
     <script src="https://use.fontawesome.com/46d41012a2.js"></script>
+    
+    <link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/highlight.js/9.15.9/styles/default.min.css">
+    <script src="//cdnjs.cloudflare.com/ajax/libs/highlight.js/9.15.9/highlight.min.js"></script>
+    <script>hljs.initHighlightingOnLoad();</script>
+
     <title> CV | aArt13 </title>
 </head>
 <body>
@@ -42,9 +48,9 @@
             <section>
                 <div class="container">
                     <div class="first__content">
-                        <div class="first__content__photo">
+                        <figure class="first__content__photo">
                             <img class="img" src="./assets/img/portrait.jpg" alt="photo">
-                        </div>
+                        </figure>
                         <div class="first__content__text">
                             <h1>artsiom kharytonchyk</h1>
                             <h3>junior front-end developer</h3>
@@ -95,8 +101,8 @@
                     </section>
                     <section class="section code" id="code">
                             <h2 class="content__article">code example</h2>
-                            <p><ion-icon class="code_icon" name="aperture-outline"></ion-icon> CodeWars: Clocky Mc Clock-Face</p>
-                            <pre><code>
+                            <h4><ion-icon class="code_icon" name="aperture-outline"></ion-icon> CodeWars: Clocky Mc Clock-Face</h4>
+                            <pre><code class="html">
 var whatTimeIsIt = function(angle) {
 let res = ''
 let hours = Math.floor(angle * 2 / 60)
