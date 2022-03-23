@@ -48,7 +48,7 @@ return false
 ```
 
 ## Experience  
-* *[CV](https://aart13.github.io/rsschool-cv/cv)*
+* *[CV](https://aart13.github.io/rsschool-cv/)*
 * *[Portfolio](https://rolling-scopes-school.github.io/aart13-JSFEPRESCHOOL/portfolio1/ "Portfolio")*
 * *[Random jokes](https://rolling-scopes-school.github.io/aart13-JSFEPRESCHOOL/random-jokes/ "Random jokes")*
 * *[Image gallery](https://rolling-scopes-school.github.io/aart13-JSFEPRESCHOOL/image-galery/ "Image gallery")*
