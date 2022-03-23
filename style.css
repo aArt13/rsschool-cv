@@ -23,6 +23,7 @@
         font-size: var(--main-font-size-text);
         font-weight: var(--main-font-weight-text);
         font-family: 'Fredoka', sans-serif;
+        /* background-color: whitesmoke; */
     }
 
     :root {
@@ -528,6 +529,7 @@
     .code pre{
         text-align: justify;
     }
+
     code {
         font-family: 'Hubballi', cursive;
         font-weight: 100;
@@ -541,7 +543,7 @@
         background-color: brown;
     }
 
-    .code p {
+    .code h4 {
         font-size: 28px;
         font-weight: var(--main-font-weight);
         margin-block-start: 0;
@@ -751,7 +753,7 @@
             font-size: 18px;
         }
 
-        .code p {
+        .code h4 {
             font-size: 22px;
             font-weight: var(--main-font-weight);
         }
@@ -894,7 +896,7 @@
         }
 
         code {
-            font-size: 16px;
+            font-size: 15px;
         }
 
     }
@@ -941,14 +943,14 @@
         }
 
         code {
-            font-size: 12px;
+            font-size: 10px;
         }
 
         .contacts__links {
             font-size: 14px;
         }
 
-        .code p {
+        .code h4{
             font-size: 18px;
             font-weight: var(--main-font-weight);
         }
