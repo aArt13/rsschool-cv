@@ -53,6 +53,7 @@ return false
 * *[Random jokes](https://rolling-scopes-school.github.io/aart13-JSFEPRESCHOOL/random-jokes/ "Random jokes")*
 * *[Image gallery](https://rolling-scopes-school.github.io/aart13-JSFEPRESCHOOL/image-galery/ "Image gallery")*
 * *[Tic Tac Toe](https://rolling-scopes-school.github.io/aart13-JSFEPRESCHOOL/tic-tac-toe/ "Tic Tac Toe")*
+* *[Cozy House](https://rolling-scopes-school.github.io/aart13-JSFE2022Q1/shelter/pages/main/ "Cozy House")*
 
 
 ## Education  
