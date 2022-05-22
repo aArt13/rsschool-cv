@@ -55,6 +55,7 @@ return false
 * *[Tic Tac Toe](https://rolling-scopes-school.github.io/aart13-JSFEPRESCHOOL/tic-tac-toe/ "Tic Tac Toe")*
 * *[Cozy House](https://rolling-scopes-school.github.io/aart13-JSFE2022Q1/shelter/pages/main/ "Cozy House")*
 * *[Virtual keyboard](https://aart13.github.io/virtual-keyboard/ "Virtual keyboard")*
+* *[CSS Mem Slider](https://aart13.github.io/cssMemSlider/cssMemSlider/ "CSS Mem Slider")*
 
 
 ## Education  
