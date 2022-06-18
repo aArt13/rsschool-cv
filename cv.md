@@ -72,4 +72,8 @@ return false
 * Russian: native
 
 
+## Self-introduction
+* **Video:** *[Youtube](https://youtu.be/DTqVFV1nMuQ "Self-introduction")*;
+
+
 https://rs.school/
