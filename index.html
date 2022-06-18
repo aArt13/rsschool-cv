@@ -1,0 +1,189 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="./assets/ico/mandala_icon.ico" type="image/png">
+    <link rel="stylesheet" href="./style.css">
+
+    <script src="https://use.fontawesome.com/46d41012a2.js"></script>
+    
+    <link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/highlight.js/9.15.9/styles/default.min.css">
+    <script src="//cdnjs.cloudflare.com/ajax/libs/highlight.js/9.15.9/highlight.min.js"></script>
+    <script>hljs.initHighlightingOnLoad();</script>
+
+    <title> CV | aArt13 </title>
+</head>
+<body>
+    
+        <header class="header">
+            <div class="container">
+                <div class="header_panel">
+                    <div class="header_panel__left">
+                        <a href="./index.html"><ion-icon class="logo_header" name="earth-outline"></ion-icon></a>
+                    </div>
+                    <div class="header_panel__right">
+                        <nav class="nav">
+                            <ul class="list list__header">
+                                <li><a href="#contacts" class="nav__links">contacts</a></li>
+                                <li><a href="#aboutMe" class="nav__links">about me</a></li>
+                                <li><a href="#skills" class="nav__links">skills</a></li>
+                                <li><a href="#code" class="nav__links">code example</a></li>
+                                <li><a href="#experience" class="nav__links">experience</a></li>
+                                <li><a href="#education" class="nav__links">education</a></li>
+                                <li><a href="#languages" class="nav__links">languages</a></li>
+                            </ul>
+                        </nav>
+                        <div class="hamburger">
+                            <div class="line line1"></div>
+                            <div class="line line2"></div>
+                            <div class="line line3"></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </header>
+        <main>
+            <section>
+                <div class="container">
+                    <div class="first__content">
+                        <figure class="first__content__photo">
+                            <img class="img" src="./assets/img/portrait.jpg" alt="photo">
+                        </figure>
+                        <div class="first__content__text">
+                            <h1>artsiom kharytonchyk</h1>
+                            <h3>junior front-end developer</h3>
+                        </div>
+                    </div>
+                    <button class="btn">let's move!</button>
+                </div>
+            </section>
+                <div class="container">
+                    <section class="section contacts" id="contacts">
+                        <h2 class="content__article">contacts</h2>
+                        <address>
+                            <ul class="contacts__links__style">
+                                <li><p class="contact_icon"><i class="fa fa-map-marker fa-2x" aria-hidden="true"></i></p><span class="contacts_name">location: </span><a class="contacts__links" href="https://goo.gl/maps/67LPC5mwAtLY6Mb79" target="_blank">Minsk, Belarus</a></li>
+                                <li><p class="contact_icon"><i class="fa fa-envelope fa-2x" aria-hidden="true"></i></p><span class="contacts_name">email: </span><a class="contacts__links" href="mailto:kharytonchyk.artsiom@gmail.com" target="_blank">kharytonchyk.artsiom@gmail.com</a></li>
+                                <li><p class="contact_icon"><i class="fa fa-github-alt fa-2x" aria-hidden="true"></i></p><span class="contacts_name">gitHub: </span><a class="contacts__links" href="https://github.com/aArt13" target="_blank">aArt13</a></li>
+                                <li><p class="contact_icon"><i class="fa fa-telegram fa-2x" aria-hidden="true"></i></p><span class="contacts_name">telegram: </span><a class="contacts__links" href="https://t.me/aart133" target="_blank">aart133</a></li>
+                                <li><p class="contact_icon"><i class="fa fa-comment fa-2x" aria-hidden="true"></i></p><span class="contacts_name">discord: </span><a class="contacts__links" href="https://discord.com/arctic13#6350" target="_blank">arctic13#6350</a></li>
+                            </ul>
+                        </address>
+                    </section>
+                    <section class="section aboutMe" id="aboutMe">
+                            <h2 class="content__article">about me</h2>
+                                <div>
+                                    <p>
+                                        I thought about it for a long time, and I think the time has come.  
+                                        I want to gain knowledge and skills that will be enough for employment and will change my life. 
+                                    </p>
+                                    <p> 
+                                        I am here because I want to be a part of the current  development worlds trend.
+                                    </p>
+                                    <p>
+                                        I love my family and after I like football, flexbox, stand up and i prefer a jedi sword to a steel sword.
+                                    </p>   
+                                    <p>
+                                        <i>« Viam supervadet vadens »</i>
+                                    </p>
+                                </div>
+                    </section>
+                    <section class="section skills" id="skills">
+                            <h2 class="content__article">skills</h2>
+                            <ul class="contacts__links__style">
+                                <li><span class="first_skills_icon"><ion-icon class="skills_icon" name="logo-html5"></ion-icon></span> HTML5</li>
+                                <li><span class="second_skills_icon"><ion-icon class="skills_icon" name="logo-css3"></ion-icon></span> CSS3</li>
+                                <li><span class="third_skills_icon"><ion-icon class="skills_icon" name="logo-nodejs"></ion-icon></span> JavaScript</li>
+                                <li><ion-icon class="skills_icon" name="git-branch-outline"></ion-icon> Git / Github</li>
+                            </ul>
+                    </section>
+                    <section class="section code" id="code">
+                            <h2 class="content__article">code example</h2>
+                            <h4><ion-icon class="code_icon" name="aperture-outline"></ion-icon> CodeWars: Clocky Mc Clock-Face</h4>
+                            <pre><code class="html">
+var whatTimeIsIt = function(angle) {
+let res = ''
+let hours = Math.floor(angle * 2 / 60)
+let hoursCur = hours> 9 ? hours : `0${hours}`
+let minutes = Math.floor(angle * 2 % 60)
+let minutesCur = minutes > 9 ? `${minutes}` : `0${minutes}`     
+     
+if (angle >= 0 && angle &lt;= 360) {
+    if(angle == 0){
+    res = '12:00'
+    return res
+    } if (angle &lt; 30){
+    res = '12:'+ minutesCur
+          return res
+    }else { 
+      res = (hoursCur + ':' + minutesCur)
+      return res
+      }
+} else {
+return false
+}
+}
+                            </code></pre>                        
+                    </section>
+                    <section class="section experience" id="experience">
+                            <h2 class="content__article">experience</h2>
+                            <ul class="contacts__links__style">
+                                <li><a class="contacts__links" href="https://rolling-scopes-school.github.io/aart13-JSFEPRESCHOOL/portfolio1/" target="_blank">Portfolio</a></li>
+                                <li><a class="contacts__links" href="https://rolling-scopes-school.github.io/aart13-JSFEPRESCHOOL/random-jokes/" target="_blank">Random jokes</a></li>
+                                <li><a class="contacts__links" href="https://rolling-scopes-school.github.io/aart13-JSFEPRESCHOOL/image-galery/" target="_blank">Image gallery</a></li>
+                                <li><a class="contacts__links" href="https://rolling-scopes-school.github.io/aart13-JSFEPRESCHOOL/tic-tac-toe/" target="_blank">Tic Tac Toe</a></li>
+                                <li><a class="contacts__links" href="https://rolling-scopes-school.github.io/aart13-JSFE2022Q1/shelter/pages/main/" target="_blank">Cozy House</a></li>
+                                <li><a class="contacts__links" href="https://aart13.github.io/virtual-keyboard/" target="_blank">Virtual keyboard</a></li>
+                                <li><a class="contacts__links" href="https://aart13.github.io/cssMemSlider/cssMemSlider/" target="_blank">CSS Mem Slider</a></li>
+                            </ul>   
+                    </section>
+                    <section class="section education" id="education">
+                            <h2 class="content__article">education</h2>
+                            <p>University</p>
+                            <ul class="contacts__links__style">
+                                <li><a class="contacts__links" href="https://bntu.by/" target="_blank" title="BNTU">Belarusian National Technical University</a></li>                        
+                            </ul>
+                            <p>Courses:</p>
+                            <ul class="contacts__links__style">
+                                <li><a class="contacts__links" href="https://rs.school/js-stage0/" target="_blank" title="Pre-course">RS School. «JavaScript/Front-end. Stage 0»</a></li>
+                                <li><a class="contacts__links" href="https://ru.code-basics.com" target="_blank">Code-basics</a></li>
+                                <li><a class="contacts__links" href="https://wayup.in/" target="_blank">Wayup</a></li>                        
+                            </ul>
+                    </section>
+                    <section class="section languages" id="languages">
+                            <h2 class="content__article">languages</h2>
+                            <ul class="contacts__links__style">
+                                <li>English: A1</li>
+                                <li>Belarusian: native</li>
+                                <li>Russian: native</li>
+                            </ul>
+                    </section>
+                </div>
+        </main>
+       
+        <footer class="footer">
+            <div class="container">
+                <div class="footer_panel">
+                    <ul class="list list__footer">
+                        <li><a href="https://github.com/aArt13" target="_blank">
+                            <svg class="footer__logo">
+                                <use xlink:href="./assets/svg/sprite.svg#github-icon"></use>
+                           </svg></a>
+                           <a class="link_style cross_line" href="https://github.com/aArt13" target="_blank">aArt13</a>
+                        </li>
+                        <li>2022</li>
+                        <li><a href="https://rs.school/js/" target="_blank">
+                            <svg class="footer__logo_rs">
+                                <use xlink:href="./assets/svg/sprite.svg#rs_school_js"></use>
+                           </svg>
+                        </a></li>
+                    </ul>
+                </div>
+            </div>
+        </footer>   
+        <script type="module" src="./app.js"></script>
+        <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+    </body>
+</html>
